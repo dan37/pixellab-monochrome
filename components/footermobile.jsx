@@ -6,7 +6,7 @@
           <div className="footer-newsletter-mobile">
             <h1 className="text-center">Let s connect</h1>
             <p className="text-center">Be the first to receive exclusives offers</p>
-            <form className="form-newsletter d-flex flex-column align-items-center">
+            <form className="form-newsletter-mobile d-flex flex-column align-items-center">
               <label htmlFor="email">Email</label>
               <input type="email"  name="email" id="email" />
               <button type="submit"  className="d-block">submit</button>
