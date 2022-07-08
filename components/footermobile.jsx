@@ -3,7 +3,7 @@
       <div className="footer-mobile">
         <div className="content-mobile container-mobile  d-block  d-md-none d-lg-none">
         <div className="footer-connect">
-          <div className="footer-newsletter">
+          <div className="footer-newsletter-mobile">
             <h1 className="text-center">Let s connect</h1>
             <p className="text-center">Be the first to receive exclusives offers</p>
             <form className="form-newsletter d-flex flex-column align-items-center">
