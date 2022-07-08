@@ -1,0 +1,98 @@
+// content main
+@include media-breakpoint-down(md) {
+  .content-main-mobile .mobile-line {
+    margin: 27px auto 8px auto;
+    width: 307px;
+    border: 1px solid #ffffff;
+    opacity: 1;
+    background: #2b2b2b;
+  }
+
+  .content-main-mobile {
+    color: #2b2b2b;
+  }
+
+  // home catalog preview
+  .home-catalog-preview-mobile header .header-catalog-mobile {
+    margin-bottom: 10px;
+  }
+
+  .content-main-mobile > .home-catalog-preview-mobile > header > h1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .home-catalog-preview-mobile .header-catalog-mobile h1 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  // aside
+  .home-aside-mobile .aside-content-mobile h1 {
+    font-size: 18px;
+    letter-spacing: 0.27px;
+    font-family: 'Playfair Display', 'Regular Roman';
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    margin-top: 26px;
+    margin-bottom: 10px;
+  }
+
+  .home-aside-mobile .aside-content-mobile .paragraf-content-mobile {
+    font-family: 'Roboto', 'sans-serif';
+    letter-spacing: 0.24px;
+    text-align: left;
+    line-height: 32px;
+    font-size: 16px;
+  }
+
+  // product tile mobile
+  .home-catalog-preview-mobile .product-tiles-mobile .product-tile-mobile {
+    width: 49.831649%;
+  }
+
+  .home-catalog-preview-mobile .product-tile-mobile .product-tile-title-mobile {
+    margin: 10px 0 5px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .home-catalog-preview-mobile
+    .product-tile-image-mobile
+    .product-tile-badge-mobile {
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 5px;
+    right: 11px;
+  }
+
+  .home-catalog-preview-mobile .product-tile-mobile header {
+    position: relative;
+  }
+
+  .home-catalog-preview-mobile .product-tile-pricing-mobile {
+    text-align: center;
+    margin: 5px 0;
+  }
+
+  .home-catalog-preview-mobile .catalog-preview-ctas-mobile .ctas-link-mobile {
+    width: 44px;
+    height: 14px;
+    font-size: 16px;
+    transition: color 0.2s linear, background-color 0.2s linear;
+  }
+
+  .home-catalog-preview .catalog-preview-ctas .ctas-link:hover {
+    color: #e8e8e8;
+    background-color: #2b2b2b;
+  }
+
+  .catalog-preview-ctas-mobile {
+    margin: 35px 0 41px 0;
+  }
+}
