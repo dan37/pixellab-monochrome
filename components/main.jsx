@@ -242,7 +242,7 @@ export default function Main() {
 
         <section className="home-catalog-preview">
           <header>
-            <h1 className="header-catalog">MEN'S</h1>
+            <h1 className="header-catalog">MEN S</h1>
           </header>
 
           <section className="product-tiles">
