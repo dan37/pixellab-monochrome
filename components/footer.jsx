@@ -18,7 +18,7 @@ export default function Footer() {
               </a>
             </li>
 
-            <li>
+            <li className="mobile-version">
               <a href="" title="mobile-version">
                 see mobile version
               </a>
