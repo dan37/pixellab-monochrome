@@ -1,10 +1,7 @@
 import Head from 'next/head';
-import Footer from '../components/footer';
 import Header from '../components/header';
+import Footer from '../components/footer';
 import Main from '../components/main';
-import Headermobile from '../components/headermobile';
-import Footermobile from '../components/footermobile';
-import Mainmobile from '../components/mainmobile';
 
 
 export default function Home() {
@@ -22,11 +19,6 @@ export default function Home() {
 
       <Footer></Footer>
 
-      <Headermobile></Headermobile>
-
-      <Mainmobile></Mainmobile>
-
-      <Footermobile></Footermobile>
     </div>
   );
 
